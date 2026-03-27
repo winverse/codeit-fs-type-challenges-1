@@ -17,7 +17,7 @@ export const numberEnvelope: ApiEnvelope<number> = {
 };
 
 export const stringEnvelope: ApiEnvelope<string> = {
-  data: "done",
+  data: 'done',
   status: 200,
 };
 
@@ -32,11 +32,11 @@ export function pickLast(items: any[]): any {
 }
 
 export const stringBox: Box<string> = {
-  value: "done",
-  createdAt: "2026-03-12",
+  value: 'done',
+  createdAt: '2026-03-12',
 };
 
 export const numberBox: Box<number> = {
   value: 3,
-  createdAt: "2026-03-12",
+  createdAt: '2026-03-12',
 };

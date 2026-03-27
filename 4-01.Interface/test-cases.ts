@@ -1,16 +1,6 @@
 import type { Equal, Expect } from '../_helpers/type-test';
-import {
-  account,
-  course,
-  creatorAccount,
-  onlineCourse,
-} from './template';
-import type {
-  Account,
-  Course,
-  CreatorAccount,
-  OnlineCourse,
-} from './template';
+import { account, course, creatorAccount, onlineCourse } from './template';
+import type { Account, Course, CreatorAccount, OnlineCourse } from './template';
 
 type cases = [
   Expect<Equal<Course['id'], string>>,

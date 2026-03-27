@@ -1,10 +1,5 @@
 import type { Equal, Expect } from '../_helpers/type-test';
-import {
-  character,
-  getEntityId,
-  product,
-  user,
-} from './template';
+import { character, getEntityId, product, user } from './template';
 import type {
   Attacker,
   BattleCharacter,
@@ -27,8 +22,7 @@ type cases = [
 
 const productId: string = getEntityId(product);
 const userId: string = getEntityId(user);
-const totalPower: number =
-  character.attackPower + character.defensePower;
+const totalPower: number = character.attackPower + character.defensePower;
 character.attack();
 character.defend();
 void [productId, userId, totalPower];
