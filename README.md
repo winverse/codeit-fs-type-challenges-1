@@ -19,6 +19,10 @@
 
 실습은 각 절 폴더의 `README.md`를 먼저 읽고, `template.ts`를 수정한 뒤 `test-cases.ts`로 타입 검사 결과를 확인하면 됩니다. 해설은 `solution/{절 경로}/solution.ts` 아래에 따로 모아 두었으므로, 풀이를 끝낸 뒤 마지막에만 열어 비교하는 편이 적절합니다.
 
+아래는 예시 입니다.
 ```bash
 pnpm --package=typescript dlx tsc --noEmit 2-03.타입을-정하는-법/test-cases.ts
 ```
+
+VScode는 Ts의 타입 시스템을 이해하고 있기 때문에 굳이 스크립트를 실행할 필요는 없지만, 
+TS가 어떻게 
